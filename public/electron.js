@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require('electron')
+const path = require("path")
+const isDev = require("electron-is-dev")
 
 function createWindow () {
   const win = new BrowserWindow({
@@ -10,7 +12,10 @@ function createWindow () {
   })
 
   win.loadURL(
-      'index.html'
+      isDev ? 
+      "http://localhost:3000" 
+      :
+      `file://${path.join(__dirname, "../build/index.html")}`
     )
 }
 
