@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## `To Strat the project`
 
-In the project directory, you can run:
+run the command in the cmd/powershell
+`npm install -g yarn`
+`yarn install`
 
 ### `Starting App`
 
