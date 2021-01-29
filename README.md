@@ -8,15 +8,16 @@ In the project directory, you can run:
 
 ### `Starting App`
 
+start: Start the application in Electron
 react-start: For starting React App in a browser window
-react-build: For building React specific Application
 
 ### `Building App`
 
-start: Start the application in Electron
 build: For building React App in Electron
+react-build: For building React specific Application
 
 Builds the app for production to the `build` folder.\
+And the setup is found in the `dist` folder
 
 ## Learn More (Original Ract links)
 
